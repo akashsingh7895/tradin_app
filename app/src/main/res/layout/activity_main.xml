@@ -153,17 +153,71 @@
 
         </LinearLayout>
 
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="@+id/imageView" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/item"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/item"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/item"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/item"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/item"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginLeft="@dimen/_16sdp"
             android:layout_marginRight="@dimen/_16sdp"
             android:elevation="@dimen/_4sdp"
-            app:cardCornerRadius="@dimen/_15sdp"
             app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
@@ -174,202 +228,203 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_30sdp"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_marginRight="@dimen/_10sdp"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:layout_marginTop="@dimen/_10sdp">
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                     <View
                         android:layout_width="@dimen/_1sdp"
                         android:layout_height="match_parent"
-                        android:background="@color/black"/>
+                        android:background="@color/black" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
-                    android:background="@color/black"/>
+                    android:background="@color/black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_10sdp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                   >
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                     <View
                         android:layout_width="@dimen/_1sdp"
                         android:layout_height="match_parent"
-                        android:background="@color/black"/>
+                        android:background="@color/black" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
-                    android:background="@color/black"/>
+                    android:background="@color/black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_10sdp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                     <View
                         android:layout_width="@dimen/_1sdp"
                         android:layout_height="match_parent"
-                        android:background="@color/black"/>
+                        android:background="@color/black" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
-                    android:background="@color/black"/>
+                    android:background="@color/black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_10sdp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                     <View
                         android:layout_width="@dimen/_1sdp"
                         android:layout_height="match_parent"
-                        android:background="@color/black"/>
+                        android:background="@color/black" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                 </LinearLayout>
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
-                    android:background="@color/black"/>
+                    android:background="@color/black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginRight="@dimen/_10sdp"
                     android:layout_marginBottom="@dimen/_10sdp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                     <View
                         android:layout_width="@dimen/_1sdp"
                         android:layout_height="match_parent"
-                        android:background="@color/black"/>
+                        android:background="@color/black" />
 
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14sdp"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:gravity="center"
+                        android:layout_weight="1"
                         android:fontFamily="@font/letin_bold"
-                        android:text="crpto1"/>
+                        android:gravity="center"
+                        android:text="crpto1"
+                        android:textSize="@dimen/_14sdp" />
 
                 </LinearLayout>
 
