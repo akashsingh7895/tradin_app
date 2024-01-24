@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Trading_App</string>
+    <string name="str_share_with">Share with</string>
+    <string name="str_share_app_pre_text">Kawasaki Ninja H2 Bike</string>
+    <string name="str_unable_to_send_try_again">Unable to send this try again</string>
+    <string name="str_unable_to_find_market">unable to find market app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="privacy_policy">https://stackoverflow.com/questions/49277797/how-to-display-data-from-firestore-in-a-recyclerview-with-android</string>
+
 </resources>
