@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.Trading_App" parent="Base.Theme.Trading_App" />
+
+    <style name="TransparentDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item> <!-- Optional: Dim the background -->
+    </style>
 </resources>

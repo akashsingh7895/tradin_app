@@ -4,4 +4,9 @@
          Customize your dark theme here.
          <item name="colorPrimary">@color/colorPrimary</item>
     </style>
+
+    <style name="TransparentDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item> <!-- Optional: Dim the background -->
+    </style>
 </resources>
