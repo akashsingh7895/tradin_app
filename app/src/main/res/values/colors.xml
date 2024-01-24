@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#52b9f4</color>
+    <color name="lightPrimary">#81f1ff</color>
+    <color name="toolWar_color">#6bc6ff</color>
+    <color name="color_selected">#3d7294</color>
+
+</resources>

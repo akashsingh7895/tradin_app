@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/home"-->
+<!--        android:icon="@drawable/img_5"-->
+<!--        android:title="Update App" />-->
+
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/nav_left_rate_app"
+            android:icon="@drawable/baseline_star_rate_24"
+            android:title="Rate us" />
+    </group>
+
+
+    <group android:id="@+id/g2">
+        <item
+            android:id="@+id/nav_left_share_app"
+            android:icon="@drawable/baseline_share_24"
+            android:title="Share App" />
+    </group>
+
+    <group android:id="@+id/g3">
+
+        <item
+            android:id="@+id/nav_left_privacy"
+            android:icon="@drawable/baseline_privacy_tip_24"
+            android:title="Privacy Policy" />
+    </group>
+
+    <group android:id="@+id/g4">
+
+        <item
+            android:id="@+id/nav_left_exit"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="Exit" />
+    </group>
+
+
+
+
+
+
+
+
+
+    <!--    <item-->
+<!--        android:id="@+id/nav_left_send_feedback"-->
+<!--        android:icon="@drawable/baseline_feedback_24"-->
+<!--        android:title="Feedback" />-->
+
+</menu>
